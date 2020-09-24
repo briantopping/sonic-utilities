@@ -17,6 +17,7 @@ import kube
 import mlnx
 import utilities_common.cli as clicommon
 import vlan
+import netaddr
 from sonic_py_common import device_info
 from swsssdk import ConfigDBConnector, SonicV2Connector
 from tabulate import tabulate
